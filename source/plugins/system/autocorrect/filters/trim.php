@@ -12,17 +12,18 @@
 // Check to ensure this file is included in Joomla!
 defined('_JEXEC') or die( 'Restricted access' );
 
-// Import the parent class
-jimport( 'joomla.plugin.plugin' );
+// Import dependancies
+include_once __DIR__.'/../interface.php';
 
 /**
- * System plugin
+ * Filtering class for trimming text
  */
-class plgSystemAutocorrectFilterTrim
+class plgSystemAutocorrectFilterTrim implements plgSystemAutoCorrectFilterInterface
 {
     public function filter($string)
     {
         $string = trim($string);
+
         return $string;
     }
 }

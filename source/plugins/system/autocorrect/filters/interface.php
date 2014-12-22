@@ -12,18 +12,10 @@
 // Check to ensure this file is included in Joomla!
 defined('_JEXEC') or die( 'Restricted access' );
 
-// Import dependancies
-include_once __DIR__.'/../interface.php';
-
 /**
- * Filtering class for stripping HTML from text
+ * Interface
  */
-class plgSystemAutocorrectFilterStrip implements plgSystemAutoCorrectFilterInterface
+class plgSystemAutoCorrectFilterInterface
 {
-    public function filter($string)
-    {
-        $string = strip_tags($string);
-
-        return $string;
-    }
+    public function filter($string);
 }
