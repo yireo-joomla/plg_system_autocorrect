@@ -23,6 +23,7 @@ class plgSystemAutocorrectFilterTrim implements plgSystemAutoCorrectFilterInterf
     public function filter($string)
     {
         $string = trim($string);
+        $string = preg_replace('/\<p\>\&nbsp\;\<\/p\>$/', '', $string);
 
         return $string;
     }
