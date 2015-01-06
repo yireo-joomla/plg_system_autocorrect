@@ -3,7 +3,7 @@
  * Joomla! plugin to autocorrect content
  *
  * @author Yireo (info@yireo.com)
- * @copyright Copyright 2014
+ * @copyright Copyright 2015
  * @license GNU Public License
  * @link http://www.yireo.com
  * @contributor Jisse Reitsma, Yireo (main code)
@@ -13,7 +13,7 @@
 defined('_JEXEC') or die( 'Restricted access' );
 
 // Import dependancies
-include_once __DIR__.'/../interface.php';
+include_once __DIR__.'/interface.php';
 
 /**
  * Filtering class for removing dots at the end of lines
