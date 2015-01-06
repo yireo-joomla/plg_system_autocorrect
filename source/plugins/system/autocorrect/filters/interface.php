@@ -15,7 +15,7 @@ defined('_JEXEC') or die( 'Restricted access' );
 /**
  * Interface
  */
-class plgSystemAutoCorrectFilterInterface
+interface plgSystemAutoCorrectFilterInterface
 {
     public function filter($string);
 }
