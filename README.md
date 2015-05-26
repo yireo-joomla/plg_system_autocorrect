@@ -24,3 +24,10 @@ to allow for the trick of filters automatically being added.
 
 ## Caveats
 * To filters for the form, do not show up unless the plugin itself is enabled.
+
+---
+## Want to learn how to program Joomla plugins?
+We have released an excellent guide for developing Joomla plugins: **Programming Joomla Plugins** written by Jisse Reitsma, a must-have for any serious Joomla developer.
+
+https://www.yireo.com/books/programming-joomla-plugins-book
+

@@ -2,8 +2,8 @@
 <form>
     <fields name="params">
         <fieldset name="trim" label="PLG_SYSTEM_AUTOCORRECT_FIELDSET_TRIM">
-            <field name="trim_enable" type="boolean" default="1" />
-            <field name="trim_fieldtypes" type="fieldtypes" default="title,text" multiple="1" />
+            <field name="trim_enable" type="yireo.boolean" default="1" />
+            <field name="trim_fieldtypes" type="yireo.fieldtypes" default="title,text" multiple="1" />
         </fieldset>
     </fields>
 </form>

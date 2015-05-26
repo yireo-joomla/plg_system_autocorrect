@@ -18,7 +18,7 @@ jimport('joomla.form.fields.list');
 /**
  * Form Field-class for selecting content fields
  */
-class JFormFieldFieldTypes extends JFormFieldList
+class YireoFormFieldFieldTypes extends JFormFieldList
 {
     public $type = 'FieldTypes';
 

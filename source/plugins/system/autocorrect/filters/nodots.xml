@@ -2,8 +2,8 @@
 <form>
     <fields name="params">
         <fieldset name="nodots" label="PLG_SYSTEM_AUTOCORRECT_FIELDSET_NODOTS">
-            <field name="nodots_enable" type="boolean" default="1" />
-            <field name="nodots_fieldtypes" type="fieldtypes" default="title" multiple="1" />
+            <field name="nodots_enable" type="yireo.boolean" default="1" />
+            <field name="nodots_fieldtypes" type="yireo.fieldtypes" default="title" multiple="1" />
         </fieldset>
     </fields>
 </form>
