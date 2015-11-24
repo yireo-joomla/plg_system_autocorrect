@@ -2,17 +2,18 @@
 <extension version="3.3" type="plugin" group="system" method="upgrade">
     <name>PLG_SYSTEM_AUTOCORRECT</name>
     <author>Yireo</author>
-    <creationDate>December 2014</creationDate>
+    <creationDate>November 2015</creationDate>
     <copyright>Copyright 2015 Yireo.com. All rights reserved.</copyright>
     <license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
     <authorEmail>info@yireo.com</authorEmail>
     <authorUrl>www.yireo.com</authorUrl>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <description>PLG_SYSTEM_AUTOCORRECT_DESC</description>
 
     <files>
         <filename plugin="autocorrect">autocorrect.php</filename>
         <folder>fields</folder>
+        <folder>filters</folder>
     </files>
 
     <languages>
