@@ -59,7 +59,9 @@ class plgSystemAutocorrect extends JPlugin
         }
 
         // Check for this plugin
-        if (empty($data) || !is_object($data) || $data->element != 'autocorrect')
+        $element = (isset($data->element)) ? $data->element : null;
+
+        if (empty($data) || !is_object($data) || $element != 'autocorrect')
         {
             return;
         }
