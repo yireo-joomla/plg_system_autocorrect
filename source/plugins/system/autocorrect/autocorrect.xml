@@ -27,7 +27,7 @@
     </config>
 
     <updateservers>
-        <server type="extension" priority="1" name="plg_system_autocorrect">http://www.yireo.com/updates/plg_system_autocorrect.xml</server>
+        <server type="extension" priority="1" name="plg_system_autocorrect">https://www.yireo.com/updates/plg_system_autocorrect.xml</server>
     </updateservers>
 
 </extension>
